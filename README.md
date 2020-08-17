@@ -7,7 +7,7 @@
 
 ## ➤ Sobre el proyecto
 
-Este proyecto tiene como objetivo mostrar como hacer uso de una API con JavaScript para poder mostrar en tiempo real los datos climáticos de las ciudades y su respecto país. 
+Este proyecto tiene como objetivo mostrar como hacer uso de una API con JavaScript para poder mostrar en tiempo real los datos climáticos de las ciudades y su respectivo país. 
 ![Demo](https://raw.githubusercontent.com/TaynisRW/Weather-app-js/master/docs/Demo.png "Demo")
 ## Comenzando
 ####**WEBPACK**
