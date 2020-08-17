@@ -68,11 +68,10 @@ puedes usar la versión original de [Bootstrap](https://getbootstrap.com/docs/4.
 ```
 - Para levantar nuestro servidor en nuestra terminal de Visual Studio Code ponemos el siguiente comando `npm run dev`
 - Para poder usar los datos de la **API OpenWeatherMap** debemos ingresar a su página y registrarnos así podemos obtener nuestra **API Key**, la cuál una vez logeados estará en la sección **[API Keys](https://home.openweathermap.org/api_keys)**
-- Para poder hacer las peticiones debemos espcificarle a la **[API](https://openweathermap.org/current)** como vamos a pedir los datos para nuestro proyecto nosotros usaremos la siguiente forma de peticioón 
+- Para poder hacer las peticiones debemos espcificarle a la **[API](https://openweathermap.org/current)** como vamos a pedir los datos para nuestro proyecto nosotros usaremos la siguiente forma de petición en donde le pasaremos la ciudad y el código del país en base a la [ISO 3166 ALPHA-2](https://laendercode.net/es/countries.html)
 ```bash
 https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=APIKEY&units=metric 
 ```
-en donde le pasaremos la ciudad y el código del país en base a la [ISO 3166 ALPHA-2](https://laendercode.net/es/countries.html)
 - Por último haremos uso de **LocalStorage** para poder alamacenar nuestra última búsqueda y que al momento de recargar la página conserve los datos buscados 
 
 ### ➤ IDE de desarrollo
