@@ -10,7 +10,7 @@
 Este proyecto tiene como objetivo mostrar como hacer uso de una API con JavaScript para poder mostrar en tiempo real los datos climáticos de las ciudades y su respectivo país. 
 ![Demo](https://raw.githubusercontent.com/TaynisRW/Weather-app-js/master/docs/Demo.png "Demo")
 ## Comenzando
-####**WEBPACK**
+#### **WEBPACK**
 Es un empaquetador de módulos, es decir cuando estemos desarrollando una aplicación de front-end quizá necesitemos usar un prepocesador de **CSS** como **SASS, Stylus, LESS,** etc y necesitamos convertir ese código nosotros no tendríamos que ejecutar comandos para eso a cada si tenemos una herramienta que lo hace por nosotros y no solo eso también nos puede ayudar por ejemplo a minificar archivos de **JS**, copiar los archivos de un lugar a otro, tener un servidor de desarrollo, etc. 
 Todo eso y más lo tenemos con **[Webpack](https://webpack.js.org/)** convirtiendola en una herramienta bastante útil al desarrollar proyectos de front-end, frameworks modernos como **Angular, Vue** o **React** hacen uso de esta herramienta, nosotros la usaremos en este proyecto para realizar todas estas tareas típicas del front-end.
 
@@ -58,7 +58,7 @@ puedes usar la versión original de [Bootstrap](https://getbootstrap.com/docs/4.
 - Vamos a la terminal para poder ejecutar el script que acabamos de hacer con `npm run build` esto nos generará una nueva carpeta en nuestro caso llamada **dist** en dónde estará el código que vamos a subir al servidor
 > Recuerda que que la carpeta **src** es donde tenemos nuestro código para desarrollo
 - Ahora crearemos nuestro entorno de desarrollo, el cuál nos ayudará a evitar poner el comando **webpack** cada vez que nosotros realicemos un cambio en nuestro servidor de desarrollo. Para eso crearemos otro script  `"dev": "webpack-dev-server -d"` junto con el primero que habíamos creado debría quedar de la siguiente manera:
-```json
+```javascript
 "scripts": {
 	// Convierte a traves de webpack el código a producción
 	"build": "webpack -p"
