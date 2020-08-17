@@ -30,11 +30,11 @@ Para eso debemos instalar Webpack en nuestro proyecto:
 - En la consola/terminal debemos escribir el siguiente comando 
 `npm init --yes` lo que hace este comando es crear un **package.json** en nuestro proyecto el cual nos describe algunos datos de nuestro proyecto y posteriormente nos servirá para instalar los módulos necesarios
 - Abrimos el archivo **package.json** y en la parte de 
-
-
-    "scripts": {
-    	"test": "echo \"Error: no test specified\" && exit 1
-    } 
+```javascript
+"scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1
+} 
+``` 
 borramos `"test": "echo \"Error: no test specified\" && exit 1` ya que posteriormente pondremos nustros propios scripts allí  
 - Instalamos el módulo **Webpack** con unos complementos en nuestro proyecto usando el comando 
 `npm i webpack webpack-cli style-loader css-loader webpack-dev-server html-webpack-plugin`
