@@ -2,7 +2,7 @@
 </p>
 <h1 align="center">Weather App</h1>
 <p align="center"><b>Aplicación del clima</b></br>
-<sub>Para hacer este proyecto usaremos diversos conceptos modernos de javascript como async-await, fetch, constantes, clases, etc. Así como también usaremos la programación orientada a objetos que nos provee JavaScript, haremos uso de herramientas como webpack y bootstrap, almacenaremos los datos en el localstorage del navegador, todo esto gracias al uso de una API llamada **[OpenWeatherMap](https://openweathermap.org/)** con la cual a partir de la ciudad y el código de un país podremos mostrar la información sobre el estado del cielo, la termperatura, la humedad y el viento en esa ciudad.</sub>
+<sub>Para hacer este proyecto usaremos diversos conceptos modernos de javascript como async-await, fetch, constantes, clases, etc. Así como también usaremos la programación orientada a objetos que nos provee JavaScript, haremos uso de herramientas como webpack y bootstrap, almacenaremos los datos en el localstorage del navegador, todo esto gracias al uso de una API llamada <a href="https://openweathermap.org/">OpenWeatherMap</a> con la cual a partir de la ciudad y el código de un país podremos mostrar la información sobre el estado del cielo, la termperatura, la humedad y el viento en esa ciudad.</sub>
 </p>
 
 ## ➤ Sobre el proyecto
